@@ -7,24 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D90BDE8328FDE29C00668E7E /* HabitCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90BDE8228FDE29C00668E7E /* HabitCreateViewController.swift */; };
+		D90BDE8328FDE29C00668E7E /* HabitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90BDE8228FDE29C00668E7E /* HabitDetailsViewController.swift */; };
 		D9256F2428FBDEDE00D275A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9256F2328FBDEDE00D275A6 /* AppDelegate.swift */; };
 		D9256F2628FBDEDE00D275A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9256F2528FBDEDE00D275A6 /* SceneDelegate.swift */; };
-		D9256F2828FBDEDE00D275A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9256F2728FBDEDE00D275A6 /* ViewController.swift */; };
+		D9256F2828FBDEDE00D275A6 /* HabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9256F2728FBDEDE00D275A6 /* HabitViewController.swift */; };
 		D9256F2D28FBDEE000D275A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9256F2C28FBDEE000D275A6 /* Assets.xcassets */; };
 		D9256F3028FBDEE000D275A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9256F2E28FBDEE000D275A6 /* LaunchScreen.storyboard */; };
 		D9256F3928FBE98200D275A6 /* HabitsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9256F3828FBE98200D275A6 /* HabitsStore.swift */; };
 		D925DEF128FC790A000AF19A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925DEF028FC790A000AF19A /* TabBarController.swift */; };
 		D925DEF428FC79B3000AF19A /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925DEF328FC79B3000AF19A /* HabitsViewController.swift */; };
 		D925DEF628FC79C8000AF19A /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925DEF528FC79C8000AF19A /* InfoViewController.swift */; };
+		D94CB54C2965882300794275 /* ProgressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CB54B2965882200794275 /* ProgressCollectionViewCell.swift */; };
+		D94CB54E2965883800794275 /* HabitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CB54D2965883800794275 /* HabitCollectionViewCell.swift */; };
+		D9D071D8296DE6A500D36E76 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D071D7296DE6A400D36E76 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D90BDE8228FDE29C00668E7E /* HabitCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCreateViewController.swift; sourceTree = "<group>"; };
+		D90BDE8228FDE29C00668E7E /* HabitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailsViewController.swift; sourceTree = "<group>"; };
 		D9256F2028FBDEDE00D275A6 /* MyHabits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHabits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9256F2328FBDEDE00D275A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9256F2528FBDEDE00D275A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D9256F2728FBDEDE00D275A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9256F2728FBDEDE00D275A6 /* HabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewController.swift; sourceTree = "<group>"; };
 		D9256F2C28FBDEE000D275A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9256F2F28FBDEE000D275A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9256F3128FBDEE000D275A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +35,9 @@
 		D925DEF028FC790A000AF19A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		D925DEF328FC79B3000AF19A /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
 		D925DEF528FC79C8000AF19A /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		D94CB54B2965882200794275 /* ProgressCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCollectionViewCell.swift; sourceTree = "<group>"; };
+		D94CB54D2965883800794275 /* HabitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCollectionViewCell.swift; sourceTree = "<group>"; };
+		D9D071D7296DE6A400D36E76 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +70,11 @@
 		D9256F2228FBDEDE00D275A6 /* MyHabits */ = {
 			isa = PBXGroup;
 			children = (
-				D925DEF228FC793C000AF19A /* ViewControllers */,
-				D925DEEF28FC78EA000AF19A /* TabBarController */,
-				D9256F3A28FBE99900D275A6 /* Habits */,
 				D9256F3728FBE92500D275A6 /* App */,
+				D94CB54F2965884500794275 /* Cells */,
+				D925DEEF28FC78EA000AF19A /* TabBarController */,
+				D925DEF228FC793C000AF19A /* ViewControllers */,
+				D9256F3A28FBE99900D275A6 /* Habits */,
 				D9256F2C28FBDEE000D275A6 /* Assets.xcassets */,
 				D9256F2E28FBDEE000D275A6 /* LaunchScreen.storyboard */,
 				D9256F3128FBDEE000D275A6 /* Info.plist */,
@@ -103,12 +110,22 @@
 		D925DEF228FC793C000AF19A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D9256F2728FBDEDE00D275A6 /* ViewController.swift */,
+				D9256F2728FBDEDE00D275A6 /* HabitViewController.swift */,
 				D925DEF328FC79B3000AF19A /* HabitsViewController.swift */,
+				D90BDE8228FDE29C00668E7E /* HabitDetailsViewController.swift */,
 				D925DEF528FC79C8000AF19A /* InfoViewController.swift */,
-				D90BDE8228FDE29C00668E7E /* HabitCreateViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D94CB54F2965884500794275 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D94CB54B2965882200794275 /* ProgressCollectionViewCell.swift */,
+				D94CB54D2965883800794275 /* HabitCollectionViewCell.swift */,
+				D9D071D7296DE6A400D36E76 /* Colors.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,13 +199,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9256F3928FBE98200D275A6 /* HabitsStore.swift in Sources */,
+				D9D071D8296DE6A500D36E76 /* Colors.swift in Sources */,
 				D925DEF428FC79B3000AF19A /* HabitsViewController.swift in Sources */,
-				D9256F2828FBDEDE00D275A6 /* ViewController.swift in Sources */,
+				D9256F2828FBDEDE00D275A6 /* HabitViewController.swift in Sources */,
 				D925DEF628FC79C8000AF19A /* InfoViewController.swift in Sources */,
 				D9256F2428FBDEDE00D275A6 /* AppDelegate.swift in Sources */,
+				D94CB54C2965882300794275 /* ProgressCollectionViewCell.swift in Sources */,
 				D925DEF128FC790A000AF19A /* TabBarController.swift in Sources */,
-				D90BDE8328FDE29C00668E7E /* HabitCreateViewController.swift in Sources */,
+				D90BDE8328FDE29C00668E7E /* HabitDetailsViewController.swift in Sources */,
 				D9256F2628FBDEDE00D275A6 /* SceneDelegate.swift in Sources */,
+				D94CB54E2965883800794275 /* HabitCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
